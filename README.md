@@ -30,38 +30,32 @@ Play it yourself or train an AI agent to master jumping over obstacles using the
 
 ## 📂 Project Structure
 
-ai-dino-trainer/
-├── game/                # All game-related Python modules
-│   ├── __init__.py      # (Optional) Makes this a package
-│   ├── dino_game.py     # Classic Dino game logic
-│   ├── ai_dino.py       # NEAT AI Dino trainer logic
-│   └── assets/          # Game assets (images, sprites)
-│       ├── dino.png
-│       ├── dino_jump.png
-│       ├── bird.png
-│       ├── cactus1.png
-│       ├── cactus2.png
-│       └── cactus3.png
-│
-├── training_logs/       # Auto-saved training logs
-│   ├── logs.json
-│   └── logs_backup.json # (Optional) Backup logs
-│
-├── neat_config.txt      # NEAT-Python configuration
-├── main.py              # Launches GUI menu for game modes
-├── .gitignore           # Ignore Python cache, logs, etc.
-├── requirements.txt     # Project dependencies
-└── README.md            # Project overview & instructions
-
-
+- **ai-dino-trainer/**
+  - **game/**
+    - `__init__.py`
+    - `dino_game.py`
+    - `ai_dino.py`
+    - **assets/**
+      - `dino.png`
+      - `dino_jump.png`
+      - `bird.png`
+      - `cactus1.png`, `cactus2.png`, `cactus3.png`
+  - **training_logs/**
+    - `logs.json`
+    - `logs_backup.json`
+  - `neat_config.txt`
+  - `main.py`
+  - `.gitignore`
+  - `requirements.txt`
+  - `README.md`
 ---
 
 ## ⚙️ How to Run
 
 1️⃣ Clone this repo:
 ```bash
-git clone https://github.com/your-username/ai-dino-trainer.git
-cd ai-dino-trainer
+git clone https://github.com/shrutipachpor810/ai-dino-game.git
+cd ai-dino-game
 
 2️⃣ Install dependencies:
 
