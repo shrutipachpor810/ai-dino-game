@@ -31,32 +31,28 @@ Play it yourself or train an AI agent to master jumping over obstacles using the
 ## 📂 Project Structure
 
 ai-dino-trainer/
+├── game/                # All game-related Python modules
+│   ├── __init__.py      # (Optional) Makes this a package
+│   ├── dino_game.py     # Classic Dino game logic
+│   ├── ai_dino.py       # NEAT AI Dino trainer logic
+│   └── assets/          # Game assets (images, sprites)
+│       ├── dino.png
+│       ├── dino_jump.png
+│       ├── bird.png
+│       ├── cactus1.png
+│       ├── cactus2.png
+│       └── cactus3.png
 │
-├── game/                    # All game-related Python modules
-│   ├── __init__.py          # (Optional) Makes this a package
-│   ├── dino_game.py         # Simple playable Dino game
-│   ├── ai_dino.py           # NEAT AI trainer game logic
-│   ├── assets/              # Images, sprites, sound effects
-│   │   ├── dino.png
-│   │   ├── dino_jump.png
-│   │   ├── bird.png
-│   │   ├── cactus1.png
-│   │   ├── cactus2.png
-│   │   ├── cactus3.png
-│  
-│
-├── training_logs/           # Auto-saved logs for AI training
+├── training_logs/       # Auto-saved training logs
 │   ├── logs.json
-│   ├── logs_backup.json     # (Optional) backup
+│   └── logs_backup.json # (Optional) Backup logs
 │
-├── neat_config.txt          # NEAT-Python configuration file
-│
-├── main.py                  # GUI menu to pick Classic or AI mode
-│
-│
-├── .gitignore               # Files/folders to ignore in Git
-│
-└── README.md                # Full project overview & instructions
+├── neat_config.txt      # NEAT-Python configuration
+├── main.py              # Launches GUI menu for game modes
+├── .gitignore           # Ignore Python cache, logs, etc.
+├── requirements.txt     # Project dependencies
+└── README.md            # Project overview & instructions
+
 
 ---
 
